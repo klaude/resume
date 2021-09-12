@@ -1,6 +1,9 @@
 % Use the moderncv class.
 \documentclass[11pt,a4paper,sans]{moderncv}
 
+% Use FontAwesome to load icons unsupported by moderncv into the document.
+\RequirePackage{fontawesome5}
+
 % Prevent hyphenation on word wrap.
 \usepackage[none]{hyphenat}
 
@@ -40,6 +43,9 @@
 \email{nerfyoda@gmail.com}
 \social[github]{klaude}
 \social[linkedin]{kevinlaude}
+% Use the extra info field to say my pronouns along with a handy FontAwesome
+% icon.
+\extrainfo{{\small\faMale} {\httpslink[he/him]{pronoun.is/he}}}
 
 \begin{document}
   % Personal Data
